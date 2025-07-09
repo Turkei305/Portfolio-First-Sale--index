@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time pick container</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<style>
+.time-pick-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 86.5116279vw;
+    background-color: #1b1b1b;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+    border-radius: 2.3255814vw;
+    position: absolute;
+    left: 9999;
+    height: 0px;
+}
+
+.time-pick-container button{
+    transition: 0.2s;
+}
+
+.time-pick-container button:active{
+    background-color: #DBA622;
+}
+
+.time-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-left: 4.88372093vw;
+    padding-right: 4.88372093vw;
+}
+
+.time-labels{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+}
+
+.hour-column{
+    height: 104.186047vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5.58139535vw;
+}
+
+.hour-column-items{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 104.186047vw;
+}
+
+.hour-button{   
+        background-color: #363434;
+        color: white;
+        width: 24.6511628vw;
+        height: 6.97674419vw;
+        border-radius: 2.3255814vw;
+        font-weight: bold;
+        line-height: 1;
+
+
+        border: none;
+        box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+        font-size: clamp(0px ,3.72093023vw , 18.8651px);
+        box-sizing: border-box;
+        display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+
+.minute-column , .pm-am{
+    height: 104.186047vw;
+}
+
+.minute-column button, .pm-am button{
+    margin-bottom: 1vw;
+}
+
+.minute-button , .pm-button , .am-button{
+        background-color: #363434;
+        color: white;
+        width: 24.6511628vw;
+        height: 10.4651163vw;
+        border-radius: 2.3255814vw;
+        font-weight: bold;
+
+
+        border: none;
+        box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.25);
+        font-size: clamp(0px ,3.72093023vw , 18.8651px);
+        box-sizing: border-box;
+        display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+
+.time-cta-container{
+    width: 86.5116279vw;
+}
+
+
+.time-pick-cta{
+    width: 100%;
+    height: 14.8837209vw;
+    background-color: #363434;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 2.3255814vw 2.3255814vw;
+}
+</style>
